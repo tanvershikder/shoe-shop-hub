@@ -16,7 +16,7 @@
     grid-template-columns: 4fr 1fr;
 }
 .ordersection{
-    height: 400px;
+    height: 800px;
     position: sticky;
     top: 0;
 }
