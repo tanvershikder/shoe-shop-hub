@@ -1,0 +1,68 @@
+[
+    {
+        "id": 12,
+        "name": "Running shoe",
+        "price": 140,
+        "img":"img/apex12.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Jim work shoe",
+        "price": 120,
+        "img":"img/apex11.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Jikku shoe",
+        "price": 110,
+        "img":"img/apex10.jpg"
+    },
+    {
+        "id": 9,
+        "name": "chunku shoe",
+        "price": 114,
+        "img":"img/apex9.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Ostir shoe",
+        "price": 70,
+        "img":"img/apex8.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Winter shoe",
+        "price": 100,
+        "img":"img/apex7.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cetual Shoe",
+        "price": 120,
+        "img":"img/apex3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dancing shoe",
+        "price": 110,
+        "img":"img/apex4.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Concert shoe",
+        "price": 90,
+        "img":"img/apex5.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Blue lover shoe",
+        "price": 80,
+        "img":"img/apex6.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Oficial shoe",
+        "price": 70,
+        "img":"img/apex6.jpg"
+    }
+]

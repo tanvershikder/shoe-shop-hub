@@ -1,0 +1,17 @@
+.cart{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-bottom: 10px;
+}
+.cart img{
+    height: 200px;
+}
+@media screen and (max-width:600px) {
+    .cart{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.Container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
