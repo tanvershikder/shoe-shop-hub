@@ -6,6 +6,12 @@
         "img":"img/apex12.jpg"
     },
     {
+        "id": 1,
+        "name": "Running shoe",
+        "price": 140,
+        "img":"img/apex1.jpg"
+    },
+    {
         "id": 11,
         "name": "Jim work shoe",
         "price": 120,

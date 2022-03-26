@@ -16,7 +16,7 @@ const Cart = ({cart,getcart}) => {
                         <Card.Body>
                             <Card.Title>{name}</Card.Title>
                             <Card.Text>
-                                price : {price}
+                                price : $ {price}
                             </Card.Text>
                             <Button onClick={()=> getcart(cart)} className='bg-white border border-0 text-primary text-center cartButton'>Add to cart<BsFillCartCheckFill/></Button>
                         </Card.Body>
