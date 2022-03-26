@@ -17,8 +17,9 @@ const Order = ({getcart,singleChose,deleteitem}) => {
                     deleteitem={deleteitem}
                   ></Ordersumary>)  
                 }
-                <ChoseForME singleChose={singleChose} ></ChoseForME>
+                
             </div>
+            <ChoseForME singleChose={singleChose}></ChoseForME>
         </div>
     );
 };

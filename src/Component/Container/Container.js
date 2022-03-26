@@ -15,12 +15,23 @@ const Container = () => {
         .then(data => setCart(data));
     },[])
     const getcart =(cart)=>{
-        const newcart = [...product,cart]
-        if(newcart.length > 4){
-            alert('you can select just 4 shoes')
-            return newcart;
+        const findItem = product.find((item)=> item.id === cart.id);
+        if(findItem){
+            alert("this item already add to cart")
         }
-        setProduct(newcart);
+        else{
+            const newcart = [...product,cart];
+            
+            if(newcart.length > 4){
+                alert('you can select just 4 shoes')
+                return newcart;
+            }
+            setProduct(newcart);
+            console.log(newcart);
+        }
+        
+        
+        
     }
     // console.log(product);
     
