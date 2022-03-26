@@ -17,7 +17,7 @@ const Container = () => {
     const getcart =(cart)=>{
         const findItem = product.find((item)=> item.id === cart.id);
         if(findItem){
-            alert("this item already add to cart")
+            alert("this item already add to cart");
         }
         else{
             const newcart = [...product,cart];
